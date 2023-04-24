@@ -1,0 +1,271 @@
+body{
+    background-color: rgb(250, 245, 246);
+    font-family: 'Bree Serif', serif;
+    min-height: 75rem;
+    padding-top: 6.3rem;
+}
+
+#header{
+    background-color: rgb(250, 245, 246);
+    color: rgb(146, 143, 153);
+}
+
+
+.fixed-top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+#main{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+
+    height: auto;
+    display: block;
+    background-image: url('../img/hero/fondo14.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 90%;
+
+
+}
+
+h1{
+    color: rgb(15, 17, 29);
+    font-size: 5rem;
+    font-weight: 400;
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: 0px 4px 4px rgba(71, 61, 139, 0.685);
+    text-decoration: solid white;
+
+}
+
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 800;
+    font-size: 3rem;
+    text-shadow: 4px 2px 0px rgb(243, 189, 138);
+
+   
+}
+
+h3{
+    font-family: 'Alfa Slab One', cursive;
+    color: rgb(45, 33, 87);
+    text-shadow: 0px 4px 4px rgba(170, 166, 196, 0.685);
+}
+
+.boton-morado{
+    background: linear-gradient(93.11deg, #f89cfa 3.68%, #c386f1 52%, #89d1dc 97.38%);
+    background-color: #8951f3;
+    border: 1px solid white;
+    color: #ffffff;
+    box-shadow: 4px 4px 4px deeppink;
+    border-radius: 50px;
+}
+
+#video{
+    position: relative;
+    display: block; 
+    width: 100%; 
+    height: auto;
+    background-color: rgb(250, 245, 246);
+
+
+}
+
+#caracteristicas-2{
+    /*background-color: rgb(198, 205, 243);*/
+    background-image: url('../img/hero/fondo9.jpg');
+    position: relative;
+    display: block; 
+    width: 100%; 
+    height: auto;
+}
+    .mv{
+        background: rgba(255, 255, 255, 0.521);
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: -1px 2px 9px 0 #00000036;
+        padding: 30px;
+    }
+
+
+#video{
+    background-color: rgb(247, 165, 173);
+}    
+
+.servicio{
+    background-image: url('../img/hero/fondo9.jpg');
+}
+
+#footer{
+    background-color: rgb(250, 245, 246);
+    color: rgb(146, 143, 153);
+    display: block; 
+    position: relative;
+    width: 100%; 
+    height: auto; 
+}
+
+.firma{
+    font-size: 12px;
+}    
+.credits{
+    font-size: 10px;
+}
+
+
+
+    /* ****** GALERIA ****** */
+
+#historia{
+    background-color: rgb(150, 176, 215);
+    background-image: url('../img/hero/fondo2.jpg');
+    background-size: cover;
+
+}
+
+.corp{
+   filter: drop-shadow(5px 5px 0px rebeccapurple );
+}
+
+.carousel-item h5{
+    font-weight: 300;
+    font-style: oblique;
+    color: rgb(86, 234, 253);
+    text-shadow: 2px 2px 1px rgb(47, 45, 54);
+    text-decoration: solid white;
+}
+
+.carousel-item p{
+    color: rgb(86, 234, 253);
+    text-shadow: 2px 2px 1px firebrick;
+    text-decoration: solid white;
+}
+
+.subtitulo{
+    font-size: 10rem;
+}
+
+#proceso{
+    background-image: url('../img/hero/fondo3.jpg');
+    background-size: cover;
+}
+
+.container-2{
+    background-color: rgba(255, 255, 255, 0.39);
+}
+
+.proces{
+    background-image: url('../img/hero/fondo9.jpg');
+}
+
+#botones{
+    /*background-color: #262335;*/
+    background-image: url('../img/hero/fondo9.jpg');
+ }
+
+ .boton-multi{
+    background: linear-gradient(3.11deg, #f89cfa 3.68%, #c386f1 52%, #89d1dc 97.38%);
+    /*background-color: #8951f3;*/
+    border: 1px solid white;
+    color: #ffffff;
+    box-shadow: 4px 4px 4px deeppink;
+    border-radius: 50px;
+    opacity: 65%;
+}
+
+#galeria{
+    /*background-color: #262335;*/
+    background-image: url('../img/hero/fondo13.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}    
+
+.collapse:hover{
+    transition: height 0.6s; 
+  }
+
+.img {
+    width: 300px;
+    height: auto;
+    position: relative; 
+}  
+  
+  .img p {
+    margin: auto;  
+    color: #fff;    
+    line-height: 300px; /* igual height de la imagen */
+    
+    background: rgba(0, 0, 0, 0.733);
+    transition: opacity .4s linear;
+    cursor: pointer;  
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+  }
+  
+  .img:hover p {
+    opacity: .75;  
+  }
+
+  .videos{
+    background-color: wheat;
+}
+    .vid{
+        background-image: url('../img/hero/fondo9.jpg');
+
+    }
+
+  /**************************************************/
+
+  /* PRESENTACION */
+  
+  #presentacion{
+      background-color: rgb(95, 96, 160);
+      background-image: url('../img/hero/15.png');
+      background-size: cover;
+  }
+
+  .collages{
+    box-shadow: 10px 10px 0px palevioletred;
+
+  }
+
+  .saludo{
+      font-size: 1.5rem;
+      color: white;
+  }
+
+  .nombre{
+      font-size: 4rem;
+      color: white;
+      text-shadow: 10px 10px 1px rebeccapurple;
+  }
+
+  #sobremi{
+      background-color: thistle;
+  }
+
+  .foto{
+     box-shadow: 29px 25px 0px palevioletred;
+     padding-bottom: 5px;
+     padding-right: 5px;
+  }
+
+ 
